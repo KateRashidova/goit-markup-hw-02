@@ -7,6 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  background: #e5e5e5;
 }
 
 .link {
@@ -27,6 +28,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+}
+
+.btn {
+  cursor: pointer;
 }
 
 .logo-color-black {
@@ -127,9 +132,13 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  color: --title-color
-  background: #f5f4fa;
+  color: --title-color background-color #f5f4fa;
   border-radius: 4px;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .portfolio-title {
@@ -149,7 +158,6 @@ body {
 
 /*footer*/
 
-
 .footer {
   background-color: #2f303a;
 }
@@ -157,7 +165,6 @@ body {
 .logo-color-white {
   color: #ffffff;
 }
-
 
 .link-address {
   font-size: 14px;
