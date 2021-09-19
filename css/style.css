@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
-  background: #e5e5e5;
+  background: #ffffff;
 }
 
 .link {
@@ -32,6 +32,7 @@ body {
 
 .btn {
   cursor: pointer;
+  border: none;
 }
 
 .logo-color-black {
@@ -83,6 +84,10 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 
 .benefits-title {
